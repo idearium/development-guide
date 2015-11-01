@@ -27,6 +27,7 @@ This is a gh-pages website to document our development practices.
   - highlight-selected
  - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (Mac is shipped with git, check that you have the latest version)
  - [vagrant](https://www.vagrantup.com/downloads.html)
+ - [vagrant vmware provider](https://docs.vagrantup.com/v2/vmware/installation.html)
  - [Sequel Pro](http://www.sequelpro.com)
 - Purchase & install
  - [VMware provider](https://www.vagrantup.com/vmware) plugin. Check with Senior Dev if there's an account available already before purchase.

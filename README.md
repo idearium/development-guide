@@ -4,9 +4,31 @@ This is a gh-pages website to document our development practices.
 ## Setup
 
 - Setup your email on your computer
-- Install [vagrant](https://www.vagrantup.com/downloads.html)
-- Purchase a [VMware provider](https://www.vagrantup.com/vmware) plugin. Check with Senior Dev if there's an account available already before purchase.
-- Purchase a copy of [VMware](https://www.vmware.com/au/products/fusion)
-- Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- Create [github](https://github.com/join) account
-- Provide your github username to the Senior Dev to be added to the FDM organisation
+- Create an account using your @flashmedia for the following services:
+ - google account
+ - [github](https://github.com/join) if you don't have a personal one
+ - [adobe creative cloud](https://www.adobe.com/au/creativecloud.html)
+- Install
+ - chrome
+ - [google hangout](https://chrome.google.com/webstore/detail/google-hangouts/nckgahadagoaajjgafhacjanaoiihapd?hl=en) browser extension in chrome (you'll need a google account. If you don't have one create one using the @flashmedia email)
+ - [atom](https://atom.io/) with the following plugins:
+  - editorconfig
+  - javascript-snippets
+  - language-cfml
+  - language-docker
+  - langurage-nginx
+  - linter
+  - linter-eslint
+  - atom-jade
+  - autoclose-html
+  - docblockr
+  - git-log
+  - highlight-selected
+ - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (Mac is shipped with git, check that you have the latest version)
+ - [vagrant](https://www.vagrantup.com/downloads.html)
+ - [Sequel Pro](http://www.sequelpro.com)
+- Purchase & install
+ - [VMware provider](https://www.vagrantup.com/vmware) plugin. Check with Senior Dev if there's an account available already before purchase.
+ - [VMware](https://www.vmware.com/au/products/fusion)
+ - [ksdiff](http://www.kaleidoscopeapp.com/)
+ - [transmit](https://panic.com/transmit/buy.html)

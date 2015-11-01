@@ -13,18 +13,18 @@ This is a gh-pages website to document our development practices.
  - chrome
  - [google hangout](https://chrome.google.com/webstore/detail/google-hangouts/nckgahadagoaajjgafhacjanaoiihapd?hl=en) browser extension in chrome (you'll need a google account. If you don't have one create one using the @flashmedia email)
  - [atom](https://atom.io/) with the following plugins:
-  - editorconfig
-  - javascript-snippets
-  - language-cfml
-  - language-docker
-  - langurage-nginx
-  - linter
-  - linter-eslint
-  - atom-jade
-  - autoclose-html
-  - docblockr
-  - git-log
-  - highlight-selected
+   - editorconfig
+   - javascript-snippets
+   - language-cfml
+   - language-docker
+   - langurage-nginx
+   - linter
+   - linter-eslint
+   - atom-jade
+   - autoclose-html
+   - docblockr
+   - git-log
+   - highlight-selected
  - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (Mac is shipped with git, check that you have the latest version)
  - [vagrant](https://www.vagrantup.com/downloads.html)
  - [vagrant vmware provider](https://docs.vagrantup.com/v2/vmware/installation.html)

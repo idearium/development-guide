@@ -1,0 +1,25 @@
+<template id="x-header">
+    <header>
+        <content select="h1"></content>
+        <content select="h2"></content>
+    </header>
+    <hr>
+</template>
+<script>
+    (function (doc) {
+
+        var XHeader = document.registerElement('x-header', {
+            prototype: Object.create(HTMLElement.prototype, {
+                createdCallback: {
+                    value: function () {
+                        var root = this.createShadowRoot();
+                        var template = doc.querySelector('#x-header');
+                        var clone = document.importNode(template.content, true);
+                        root.appendChild(clone);
+                    }
+                }
+            })
+        });
+
+    })(document.currentScript.ownerDocument);
+</script>

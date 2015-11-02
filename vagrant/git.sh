@@ -6,7 +6,7 @@ then
 	echo ">>> setting up git"
 
 	# install git
-	apt-get install -y git
+	sudo apt-get install -y git
 
 	# only run once
 	touch /etc/vagrant/git

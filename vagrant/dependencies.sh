@@ -11,6 +11,9 @@ then
 	# install bower
 	npm install -g bower
 
+	# create an alias to the vagrant directory
+	ln -s /vagrant /development-guide
+
 	# only run once
 	touch /etc/vagrant/dependencies
 

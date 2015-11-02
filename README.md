@@ -4,14 +4,14 @@ This is a gh-pages website to document our development practices.
 ## Setup
 
 - Setup your email on your computer
-- Create an account using your @flashmedia for the following services:
+- Create an account using your email with the following services:
   - google account
   - [github](https://github.com/join) if you don't have a personal one
   - [adobe creative cloud](https://www.adobe.com/au/creativecloud.html)
   - atlassian, you will receive an email invite to sign up an account to join the organisation account
 - Install
   - chrome
-  - [google hangout](https://chrome.google.com/webstore/detail/google-hangouts/nckgahadagoaajjgafhacjanaoiihapd?hl=en) browser extension in chrome (you'll need a google account. If you don't have one create one using the @flashmedia email)
+  - [google hangout](https://chrome.google.com/webstore/detail/google-hangouts/nckgahadagoaajjgafhacjanaoiihapd?hl=en) browser extension in chrome (sign in using the google account you created)
   - [atom](https://atom.io/) with the following plugins:
     - editorconfig
     - javascript-snippets

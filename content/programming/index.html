@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="/development-guide/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="import" href="/development-guide/partials/assets.html">
+        <title>Programming and version control | Development-guide by flashmedia</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="inner">
+
+            <x-header>
+                <h2>Programming and version control.</h2>
+            </x-header>
+
+            <x-toc>
+                <ul>
+                    <li><a href="#version-control">Version control</a></li>
+                </ul>
+            </x-toc>
+
+            <section id="version-control">
+
+                <a name="version-control" href="#version-control"></a><h1>Version control</h1>
+
+                <p>Version control is a key part of our development workflow. Everything we do centers around version control to some degree.</p>
+                <p><a href="https://git-scm.com/">Git</a> is our version control engine of choice. We use <a href="https://www.github.com/">GitHub</a> for our Git hosting.</p>
+                <p>Following are the rules we've defined around Git and our workflow.</p>
+
+                <ul>
+                    <li>The <code>master</code> branch must always be complete, working and finished. We always deploy master branch to production.</li>
+                    <li>All development must take place on branches. Branch structure should be <code>master</code> > <code>feature/epic</code> > <code>user story</code>.</li>
+                    <li>All code must be peer-reviewed through a <a href="https://help.github.com/articles/using-pull-requests/">GitHub pull request</a>.</li>
+                    <li>A development branch can only be merged into <code>master</code> or a <code>feature/epic</code> branch if you can do so without conflicts (we use GitHub to visualise this).</li>
+                    <li>Git commits should be smaller, and task focused. More commits is better than fewer.</li>
+                    <li>When merging a <code>user story</code> branch back into a <code>feature/epic</code> branch, always reference the user story ID.</li>
+                </ul>
+
+            </section>
+
+            <x-footer />
+
+            </div>
+        </div>
+    </body>
+</html>

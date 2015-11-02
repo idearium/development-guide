@@ -349,6 +349,14 @@ body /deep/ .clearfix {display: inline-block;}
 * html /deep/ .clearfix {height: 1%;}
 body /deep/ .clearfix {display: block;}
 
+section.index article {
+    margin-bottom: 20px;
+}
+
+section.index article > p {
+    margin: 5px 0;
+}
+
 /* #Media Queries
 ================================================== */
 

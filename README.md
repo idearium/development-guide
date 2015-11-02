@@ -54,3 +54,5 @@ Please read the following to get a good understanding of the tools we use for de
 - [linz](https://github.com/smebberson/linz)
 - [coldfusion](http://www.learncfinaweek.com/week1/What_is_ColdFusion_/)
 - [farcry](https://www.farcrycore.org/)
+- [sass](http://sass-lang.com/)
+- [chrome dev tool](https://developer.chrome.com/devtools)

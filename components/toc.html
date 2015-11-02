@@ -1,0 +1,24 @@
+<template id="x-toc">
+    <p>Document navigation</p>
+    <nav>
+        <content select="ul"></content>
+    </nav>
+</template>
+<script>
+    (function (doc) {
+
+        var XHeader = document.registerElement('x-toc', {
+            prototype: Object.create(HTMLElement.prototype, {
+                createdCallback: {
+                    value: function () {
+                        var root = this.createShadowRoot();
+                        var template = doc.querySelector('#x-toc');
+                        var clone = document.importNode(template.content, true);
+                        root.appendChild(clone);
+                    }
+                }
+            })
+        });
+
+    })(document.currentScript.ownerDocument);
+</script>

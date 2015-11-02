@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="/development-guide/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="import" href="/development-guide/partials/assets.html">
+        <title>Environments | Development-guide by flashmedia</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="inner">
+
+            <x-header>
+                <h2>Environments.</h2>
+            </x-header>
+
+            <section class="toc">
+                <ul>
+                    <li><a href="#development-environment">Development environment</a></li>
+                </ul>
+            </section>
+
+            <section id="development-environments">
+
+                <a name="development-environment" href="#development-environment"></a><h1>Development environment</h1>
+
+                <p>Our development environments are highly portable. Each project/website lives within its own virtual machine, which means there is little to install on your development machine.</p>
+
+                <h2>Applications</h2>
+                <p>You'll need the following applications.</p>
+                <ul>
+                    <li>Google Chrome</li>
+                    <li>Slack</li>
+                    <li>Atom</li>
+                    <li>Git</li>
+                    <li>Vagrant</li>
+                    <li>Sequel Pro</li>
+                    <li>cord</li>
+                    <li>VMWare Fusion</li>
+                    <li>Kaleidoscope</li>
+                    <li>Transmit</li>
+                </ul>
+
+                <h2>Accounts</h2>
+                <p>You'll need the following accounts.</p>
+                <ul>
+                    <li>Google account</li>
+                    <li>Apple account</li>
+                    <li>GitHub account</li>
+                    <li>Dropbox account</li>
+                </ul>
+
+                <h2>Virtual machines</h2>
+                <p>Each and every project runs within its own virtual machine. Although there are hits on memory and file space the major upside is reproducability - not to the mention the fact you can delete and recreate entire development environments within 15 minutes.</p>
+                <p>The fact that all developers are working within the same environment provides major wins. The following diagram outlines how it works.</p>
+                <div class="mxgraph" style="position:relative;overflow:auto;width:100%;"><div style="width:1px;height:1px;overflow:hidden;">5ZpNb/MoEMc/TY5b+SXOy7HttruXSitVevo8R2oTmy02ESZv/fQdYBxDnCiHRK7qJIfAEDPw4x/PYDKKH8vtP5IsixeRUT6Kgmw7iv8eRVEYh1P40JadtczDsTXkkmXWFLSGV/ZJ8crGumIZrdFmTUoIrtjSN6aiqmiqPNtCcHSBhiXJm+5bw2tKeNf6xjJVWOssmrT2fynLi8ZNOJnblneSfuRSrCr0N4rihXnZ5pI0feGstoGtTvH6HdYThLMklTeiTyFKzyBp3aLC2TJ/9hVZez45qz58Zu9CZlQ6X4qfYCmlENCRLpXbR8r1cvor9XyidU9P0gqHcuYCnG2tds0K0AwWBKtCqkLkoiL8qbU+pCu5prqDECqFKjkW6Zap3075D5SDu0TXKiV3ugkg24rblt1LKTZgSDmpa5Za4zODkdrOFqJSqMtwAnU7Zj3Qk9NGUy1WMsVvQd1ol8ic4rfiPXL49VBRUhiZWVpOFFv7vRNcuXz/vZYrFBDtCczJTWM2IusDM94lbhSzEVkfmDGg3ChmI7IeMKPrNeEr7PSB1NQEjW1nAUzk2/PdFEzR1yUxs9hAWuAzP0RDOMt1tEuBhI5GD0tOWPXXu3Zsx0Clok1CcYJblwheMMPoh+lHHJu7bhRs2vgeNhGycGL7BG0XSXXWk1R7kiOic+Vo07Qe9Ii+HT3+IrkklVowwHaIuS7IUhczka5KM6UrqVKAS4B2uS6jOc4IhRnG8V3gvjCanNNpo++Lfus4lKHoFNNKT6cnVuPqOkXfg9Xp/sbYizBvaIOASbonWhOEexAt+h6saONZn3fTG9puIVZPtH1ta9H3YEWbWJL9iLZ53ObSfPlJef74MJ8aR14+hR32kvajr8GwjKaBzxK34L3A7G5EfzbMeD75PphHdlE/GmYS+bsmFEsfLCPc3DssOyTPsYNw/Ci40I/gK1HpPOAszlpJ8UGbq+CcYRboN7RkpC72q3aNeDRBZSLrGU7YhTvFObtwk+Qaj5/wYGSwdMffSTfuRvv/pPhfn5/BSR2TUBDYowscZqvzJoexz6uh3AXfAa3ZMTh4u8eGkmWZSYQFtCy4SV0LsFFoPJGrXlXcybG7MGaYLv7mUclF9I/lB28w9CEDP9T7EeDH5H4V3kdSCLtTGDLwgwffCe5KHd6T6+gbqu2RsWlz/goQP30B</div></div>
+                <p>The following shows the typical workflow:</p>
+                <ul>
+                    <li>[host] Write some code</li>
+                    <li>[vm] Run tests</li>
+                    <li>[host] View in browser</li>
+                    <li>[host] Commit changes into Git</li>
+                </ul>
+                <p>All development resources such as databases, web servers, application servers (Node.js) are run inside the VM.</p>
+
+            </section>
+
+            <x-footer />
+
+            </div>
+        </div>
+    </body>
+</html>

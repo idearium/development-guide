@@ -1,0 +1,19 @@
+{
+  "name": "fdm-development-guide",
+  "description": "The FDM guide to everything development.",
+  "main": "",
+  "authors": [
+    "Scott Mebberson"
+  ],
+  "license": "MIT",
+  "homepage": "https://flashmedia.github.io/development-guide",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

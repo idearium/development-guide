@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
+# If there is a .vagrant file, it means we're running on Mac
+if [ -d ".vagrant" ]; then
+    vagrant ssh -c "cd /vagrant && static -a 0.0.0.0 -p 7676 -H '{\"Cache-Control\": \"no-cache, must-revalidate\"}' ./"
+    exit
+fi
+
 static -a 0.0.0.0 -p 7676 -H '{"Cache-Control": "no-cache, must-revalidate"}' ./

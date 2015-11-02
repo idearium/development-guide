@@ -34,3 +34,20 @@ This is a gh-pages website to document our development practices.
   - [VMware](https://www.vmware.com/au/products/fusion)
   - [ksdiff](http://www.kaleidoscopeapp.com/)
   - [transmit](https://panic.com/transmit/buy.html)
+
+## Resources
+
+Please read the following to get a good understanding of the tools we use for development.
+
+- [vagrant](https://docs.vagrantup.com/v2/)
+- [docker](https://www.docker.com/what-docker)
+- [rabbitmq](https://www.rabbitmq.com/)
+- [s6](http://skarnet.org/software/s6/)
+- [s6-overlay](https://github.com/just-containers/s6-overlay)
+- [alpine linux](http://alpinelinux.org/about/)
+- [docker compose](https://docs.docker.com/compose/)
+- [tutum](https://www.tutum.co/)
+- [nginx](http://nginx.org/en/)
+- [consul](https://www.consul.io/)
+- [nodejs](https://nodejs.org/en/)
+- [linz](https://github.com/smebberson/linz)

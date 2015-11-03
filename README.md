@@ -43,6 +43,7 @@ Please read the following to get a good understanding of the tools we use for de
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 - [vagrant](https://docs.vagrantup.com/v2/)
 - [docker](https://www.docker.com/what-docker)
+- [linux command line](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/GNU-Linux-Tools-Summary.pdf)
 - [mongoose](http://mongoosejs.com/)
 - [mongodb](https://mongodb.github.io/node-mongodb-native/api-articles/nodekoarticle1.html)
 - [rabbitmq](https://www.rabbitmq.com/)

@@ -40,8 +40,11 @@ This is a gh-pages website to document our development practices.
 
 Please read the following to get a good understanding of the tools we use for development.
 
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 - [vagrant](https://docs.vagrantup.com/v2/)
 - [docker](https://www.docker.com/what-docker)
+- [mongoose](http://mongoosejs.com/)
+- [mongodb](https://mongodb.github.io/node-mongodb-native/api-articles/nodekoarticle1.html)
 - [rabbitmq](https://www.rabbitmq.com/)
 - [s6](http://skarnet.org/software/s6/)
 - [s6-overlay](https://github.com/just-containers/s6-overlay)
